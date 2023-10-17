@@ -7,6 +7,6 @@ after_none = 5
 sum_of_numbers = sum(numbers[:before_none]) + sum(numbers[after_none:])
 number_of_elements = len(numbers)
 arithmetic_mean = sum_of_numbers / number_of_elements
-numbers[4] = arithmetic_mean
+numbers[before_none] = arithmetic_mean
 
 print("Измененный список:", numbers)
